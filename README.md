@@ -1,7 +1,10 @@
 # Overview
-Cookie Helper for OkHttp3
+Lib for Enabling Cookie Handling for OkHttp3.
+You can 'Set Cookie' from client.
 
 It is licensed under [MIT](https://opensource.org/licenses/MIT).
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.riversun/okhttp3-cookie-helper/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.riversun/okhttp3-cookie-helper)
 
 - A library for letting okhttp3 handle cookies. It can be used easily.
 - Keep cookies on memory, to do persistence yourself if you need.
@@ -26,3 +29,19 @@ Request request = new Request.Builder()
 .url(url)
 .build();
 ```
+
+# Gradle
+```
+compile 'org.riversun:okhttp3-cookie-helper:1.0.0'
+```
+
+# Maven
+```xml
+<dependency>
+<groupId>org.riversun</groupId>
+<artifactId>okhttp3-cookie-helper</artifactId>
+<version>1.0.0</version>
+</dependency>
+```
+
+
